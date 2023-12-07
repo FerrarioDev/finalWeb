@@ -1,0 +1,17 @@
+{
+    "Hamburguesas":[
+        {"id":1,"name":"Hamburguesa Clásica","price":150,"desc":"Deliciosa hamburguesa con carne, queso, lechuga y tomate.", "img":"./assets/hClasica.jpg"},
+        {"id":2,"name":"Hamburguesa BBQ","price":180,"desc":"Hamburguesa con salsa BBQ, cebolla caramelizada y queso cheddar.", "img":"./assets/hBBQ.jpg"},
+        {"id":3,"name":"Hamburguesa Vegetariana","price":160,"desc":"Hamburguesa vegetariana con portobello, espinacas y queso de cabra.", "img":"./assets/hVeggie.jpg"}
+    ],
+    "Pizzas":[
+        {"id":1,"name":"Pizza Margarita","price":200,"desc":"Pizza con salsa de tomate, mozzarella y albahaca fresca.", "img":"./assets/pMargarita.jpg"},
+        {"id":2,"name":"Pizza Pepperoni","price":220,"desc":"Pizza con salsa de tomate, mozzarella y pepperoni.", "img":"./assets/pPepperoni.jpg"},
+        {"id":3,"name":"Pizza Vegetariana","price":210,"desc":"Pizza con vegetales frescos, champiñones y queso mozzarella.", "img":"./assets/pVeggie.jpg"}
+    ],
+    "Helados":[
+        {"id":1,"name":"Helado de Vainilla","price":80,"desc":"Clásico helado de vainilla cremoso.", "img":"./assets/heVainilla.jpg"},
+        {"id":2,"name":"Helado de Chocolate","price":90,"desc":"Helado de chocolate intenso y cremoso.", "img":"./assets/heChocolate.jpg"},
+        {"id":3,"name":"Helado de Frutilla","price":85,"desc":"Helado de frutilla con trozos de fruta fresca.", "img":"./assets/heFrutilla.jpg"}
+    ]
+}

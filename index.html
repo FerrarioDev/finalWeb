@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>App de Lectura de Menús</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center">Selecciona un Menú</h1>
+        <div class="form-group">
+            <label for="menuSelector">Menús</label>
+            <select id="menuSelector" class="form-control">
+                <!-- Menús se cargarán dinámicamente con JS -->
+            </select>
+        </div>
+        <button onclick="mostrarPlatos()" class="btn btn-primary">Mostrar Platos</button>
+        <div id="platosContainer" class="row mt-4">
+            <!-- Platos se cargarán dinámicamente con JS -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
